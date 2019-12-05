@@ -9,66 +9,74 @@ html, body {
      text-decoration-skip: none;
      text-align: justify;
 }
- h1, h2, h3, h4, h5, h6, p, li, .cm-s-inner, .footnote-line {
-     font-size: 16px;
+h1, h2, h3, h4, h5, h6, p, li, .cm-s-inner, .footnote-line {
+  font-size: 16px;
 }
- h1, h2 {
-     text-align: center;
+h1, h2 {
+  text-align: center;
 }
- h1 {
-     text-transform: uppercase;
+h1 {
+  text-transform: uppercase;
 }
- h2, h3, em, th, .cm-keyword {
-     text-decoration: underline;
+a, .cm-keyword {
+  text-decoration: underline;
+  color: darkblue;
 }
- blockquote, strong {
-     color: darkblue 
+h2, h3, em, th, .cm-keyword {
+  text-decoration: underline;
 }
- blockquote {
-     margin-left: 30px;
-     margin-right: 30px
+h4, blockquote, strong {
+  color: darkblue 
 }
-a, .footnote-line {
-     color: #333;
+blockquote {
+  margin-left: 30px;
+  margin-right: 30px
 }
- em, strong {
-     font-style: normal;
+pre, code, tt {
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+  background-color: #bbb;
+  font-family: Hack, monospace;
 }
- ul {
-     list-style-type: square 
+em, strong {
+  font-style: normal;
 }
- #write {
-     max-width: 60em
+ul {
+  list-style-type: square 
 }
- #footer p {
-     border-top: 2px solid #333;
-     margin-top: 10px;
+#write {
+  max-width: 60em
+}
+#footer p {
+  border-top: 2px solid #333;
+  margin-top: 10px;
 }
 
 /* Codes */
- .cm-s-inner {
-     border-left: 2px solid #333;
-     padding-left: 1em 
+.cm-s-inner {
+  border-left: 2px solid #333;
+  padding-left: 1em 
 }
- .cm-s-inner * {
-     color: #333 !important 
+.cm-s-inner * {
+  color: #333 !important 
 }
 
 /* Numbering */
 /*
- h1 {
-     counter-reset: h2 
+h1 {
+counter-reset: h2 
 }
- h2 {
-     counter-reset: h3 
+h2 {
+counter-reset: h3 
 }
- #write h2:before {
-     counter-increment: h2;
-     content: counter(h2) ". " 
+#write h2:before {
+counter-increment: h2;
+content: counter(h2) ". " 
 }
- #write h3:before {
-     counter-increment: h3;
-     content: counter(h2) "." counter(h3) ". " 
+#write h3:before {
+counter-increment: h3;
+content: counter(h2) "." counter(h3) ". " 
 }
- 
-*/
+
+ */
