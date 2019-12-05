@@ -4,7 +4,7 @@
 html, body {
      background-color: #fbfbfb;
      color: #333;
-     font-family: "Courier 10 Pitch Bold", "Courier 10 Pitch", CourierSH, CourierTM, CourierC, "Courier Prime", "Akkurat-Mono", "SF Mono", "Roboto Mono", "Courier New", Hack, monospace;
+     font-family: "Courier 10 Pitch Bold", "Courier 10 Pitch", CourierSH, "Courier Code", CourierTM, CourierC, "Courier Prime", Courier, "Akkurat-Mono", "SF Mono", "Roboto Mono", "Courier New", Hack, monospace;
      font-weight: bold;
      text-decoration-skip: none;
      text-align: justify;
