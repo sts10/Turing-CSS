@@ -1,5 +1,5 @@
-# Turing-CSS
+# Turing
 
-Typora theme inspired by the style of typewritten articles.
+[Typora](https://typora.io/) theme inspired by the style of typewritten articles.
 
-![](screenshot.png)
+![Screenshot of this Typora theme](screenshot.png)
