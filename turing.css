@@ -7,7 +7,7 @@ html, body {
      font-family: "Courier 10 Pitch Bold", "Courier 10 Pitch", CourierSH, "Courier Code", CourierTM, CourierC, "Courier Prime", Courier, "Akkurat-Mono", "SF Mono", "Roboto Mono", "Courier New", Hack, monospace;
      font-weight: bold;
      text-decoration-skip: none;
-     text-align: justify;
+     text-align: left;
 }
 h1, h2, h3, h4, h5, h6, p, li, .cm-s-inner, .footnote-line {
   font-size: 16px;
@@ -35,9 +35,9 @@ blockquote {
 pre, code, tt {
   text-align: left;
   text-decoration: none;
+  font-family: "Courier Code", Hack, "DejaVu Sans Mono", monospace;
   color: #000;
   background-color: #bbb;
-  font-family: Hack, monospace;
 }
 em, strong {
   font-style: normal;
